@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="spider" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/spider" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/spider" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../opencv-2.4.13/include/opencv" />
+			<Add directory="../../../../usr/local/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lX11" />
+			<Add option="-lXtst" />
+			<Add option="-lxdo" />
+			<Add option="-lopencv_shape" />
+			<Add option="-lopencv_stitching" />
+			<Add option="-lopencv_objdetect" />
+			<Add option="-lopencv_superres" />
+			<Add option="-lopencv_videostab" />
+			<Add option="-lopencv_calib3d" />
+			<Add option="-lopencv_features2d" />
+			<Add option="-lopencv_highgui" />
+			<Add option="-lopencv_videoio" />
+			<Add option="-lopencv_imgcodecs" />
+			<Add option="-lopencv_video" />
+			<Add option="-lopencv_photo" />
+			<Add option="-lopencv_ml" />
+			<Add option="-lopencv_imgproc" />
+			<Add option="-lopencv_flann" />
+			<Add option="-lopencv_core" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_ts_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_core_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_imgproc_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_core.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_flann_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_imgproc.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_flann.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_highgui_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_features2d_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_calib3d_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_video_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_video.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_ts.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_core_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_core_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_flann_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_imgproc_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_imgproc_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_features2d_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_features2d_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_calib3d_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_calib3d_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_ml_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_ml.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_ml_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_video_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_video_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_legacy_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_legacy_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_objdetect_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_objdetect_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_objdetect_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_photo_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_photo_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_photo.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_photo_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_gpu_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_gpu_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_gpu_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_ocl_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_ocl_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_ocl_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_nonfree_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_nonfree_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_nonfree_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_contrib_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_contrib_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_stitching_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_stitching_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_stitching_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_superres_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_superres_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_superres_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_videostab_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_haartraining_engine.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_highgui.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_calib3d.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_features2d.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_test_highgui_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_perf_highgui_pch_dephelp.a" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_objdetect.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_legacy.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_gpu.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_ocl.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_nonfree.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_contrib.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_stitching.so" />
+			<Add library="../opencv-2.4.13/release/lib/cv2.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_superres.so" />
+			<Add library="../opencv-2.4.13/release/lib/libopencv_videostab.so" />
+		</Linker>
+		<Unit filename="CV.cpp" />
+		<Unit filename="CV.h" />
+		<Unit filename="card.cpp" />
+		<Unit filename="card.h" />
+		<Unit filename="gametable.cpp" />
+		<Unit filename="gametable.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mainmodule.cpp" />
+		<Unit filename="mainmodule.h" />
+		<Unit filename="mousecamscreen.cpp" />
+		<Unit filename="mousecamscreen.h" />
+		<Unit filename="serisasteps.cpp" />
+		<Unit filename="serisasteps.h" />
+		<Unit filename="steps.cpp" />
+		<Unit filename="steps.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
